@@ -2,72 +2,11 @@ nohup: ignoring input
 INFO:aiogram.dispatcher:Start polling
 INFO:aiogram.dispatcher:Run polling for bot @for_prog_vectorina_bot id=8319922047 - 'for_prog_vectorina'
 INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: True
+ERROR:root:Ошибка JSON: Expecting value: line 1 column 1 (char 0)
+Ответ модели:
+
 INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: Возникает ошибка TypeError
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: is
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: [1] [1,2]
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: Вызовет ошибку рекурсии
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-ERROR:root:Ошибка при отправке: Telegram server says - Bad Request: message is too long
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: 'Done'
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: {'a': 1, 'b': 2}
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: 3**(2**3)=3**8=6561
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: abc
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: 3
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: [1, 2, 3, 42]
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: False
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-ERROR:root:Ошибка при отправке: Telegram server says - Bad Request: message is too long
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: UnboundLocalError
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: yes
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: HELLO world
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: 5, 5
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-ERROR:root:Ошибка при отправке: Telegram server says - Bad Request: message is too long
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: Вызовет исключение ZeroDivisionError
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: {0: 0, 1: 1, 2: 4}
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: 5
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
-INFO:root:Викторина отправлена! Правильный ответ: Error
-INFO:root:Следующая викторина через 60 секунд
-INFO:root:Отправка викторины...
+WARNING:aiogram.dispatcher:Received SIGTERM signal
+INFO:aiogram.dispatcher:Polling stopped for bot @for_prog_vectorina_bot id=8319922047 - 'for_prog_vectorina'
+INFO:aiogram.dispatcher:Polling stopped
+Ошибка API: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-RateLimit-Reset":"1764892800000"},"provider_name":null}},"user_id":"user_2sJLTNLDvXruKFs4AJV8vkHDE0t"}
